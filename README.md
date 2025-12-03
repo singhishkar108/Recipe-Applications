@@ -8,7 +8,7 @@
 
 ## 📑 Table of Contents
 
-1. [✨ **1. Introduction**](#-1-introduction) <br>
+1. [✨ **Introduction**](#-1-introduction) <br>
 💻 **2. Setting Up the Project Locally** <br>
 ✅ **3. Features and Functionality** <br>
 🗺️ **4. User Navigations** <br>
