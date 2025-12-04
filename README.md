@@ -439,6 +439,8 @@ After entering all recipe details, return to the main menu and select **Display 
 
 ## 🖼️ 5. Screenshots
 
+### Windows Presentation Foundation (WPF)
+
 | Heading | Image / Screenshots |
 | :------------------------------------: | :---------------------------------------------------------------------: |
 | **Welcome/Onboarding Page** | ![Welcome/Onboarding Page](Screenshots/Onboarding.png) |
@@ -508,8 +510,8 @@ Email (for feedback or concerns): **ishkar.singh.108@gmail.com**
 
 ## ⚖️ 8. MIT License
 
-**Copyright © 2025 RecipesApplication**
-**Copyright © 2025 RecipeWPF**
+**Copyright © 2025 RecipesApplication**<br>
+**Copyright © 2025 RecipeWPF**<br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -649,12 +651,12 @@ If the application fails to start, consider the following troubleshooting steps:
 
 ---
 
-## 10. References
+## 📚 10. References
 
-- **BroCode, n.d. C# Full Course for free.** [online] _[youtube.com](https://www.youtube.com/watch?v=wxznTygnRfQ&t=10600s&ab_channel=BroCode)_ [Accessed 1 May 2024].
-- **Christensen, M., n.d. Creating a List of Lists in C#.** [online] _[stackoverflow.com](https://stackoverflow.com/questions/12628222/creating-a-list-of-lists-in-c-sharp)_ [Accessed 1 May 2024].
-- **Reddit, n.d. await Task.Delay(1000) vs await Task.Run(() => Thread.Sleep(1000)).** [online] _[reddit.com](https://www.reddit.com/r/csharp/comments/8qbp5g/await_taskdelay1000_vs_await_taskrun/)_ [Accessed 1 May 2024].
-- **Stack Overflow, n.d. await Task.Delay vs Task.Delay().Wait().** [online] _[stackoverflow.com](https://stackoverflow.com/questions/26798845/await-task-delay-vs-task-delay-wait)_ [Accessed 1 May 2024].
-- **Stack Overflow, n.d. How to show emoji in C# console output.** [online] _[stackoverflow.com](https://stackoverflow.com/questions/67508469/how-to-show-emoji-in-c-sharp-console-output)_ [Accessed 1 May 2024].
+- **BroCode, n.d. C# Full Course for free.** [online] _[youtube.com](https://www.youtube.com/watch?v=wxznTygnRfQ&t=10600s&ab_channel=BroCode)_ [Accessed 6 April 2024].
+- **Christensen, M., n.d. Creating a List of Lists in C#.** [online] _[stackoverflow.com](https://stackoverflow.com/questions/12628222/creating-a-list-of-lists-in-c-sharp)_ [Accessed 21 April 2024].
+- **Reddit, n.d. await Task.Delay(1000) vs await Task.Run(() => Thread.Sleep(1000)).** [online] _[reddit.com](https://www.reddit.com/r/csharp/comments/8qbp5g/await_taskdelay1000_vs_await_taskrun/)_ [Accessed 6 May 2024].
+- **Stack Overflow, n.d. await Task.Delay vs Task.Delay().Wait().** [online] _[stackoverflow.com](https://stackoverflow.com/questions/26798845/await-task-delay-vs-task-delay-wait)_ [Accessed 19 May 2024].
+- **Stack Overflow, n.d. How to show emoji in C# console output.** [online] _[stackoverflow.com](https://stackoverflow.com/questions/67508469/how-to-show-emoji-in-c-sharp-console-output)_ [Accessed 5 June 2024].
 - **Troelsen, Andrew, and Phillip Japikse, 2021. Pro C# 9 with .NET 5: Foundational Principles and Practices in Programming.** N.p.: Apress.
-- **Unicode Consortium, n.d. Full Emoji List.** [online] _[unicode.org](https://unicode.org/emoji/charts/full-emoji-list.html)_ [Accessed 1 May 2024].
+- **Unicode Consortium, n.d. Full Emoji List.** [online] _[unicode.org](https://unicode.org/emoji/charts/full-emoji-list.html)_ [Accessed 17 June 2024].
