@@ -45,32 +45,32 @@ This section guides you through setting up and running the WPF & Command-Line Ap
 
 To successfully compile and run this project, you must have the following installed on your system:
 
-* **Operating System**: Any operating system that supports .NET Framework 4.7.2.
-* **IDE**: Compatible version of Visual Studio (or an equivalent IDE like JetBrains Rider or VS Code with C# extensions).
-* **Version Control**: **Git** for cloning the repository.
-* **Frameworks** (Specified in App.config): .NET Framework 4.7.2 or later.
-* **RAM**: Minimum 4GB
-* **Disk Space**: Minimum 100MB free space
-* **Dependencies** (Specified in `packages.config` for `UnitTestProject1`):
-    * `MSTest.TestAdapter` (Version 2.2.10)
-    * `MSTest.TestFramework` (Version 2.2.10)
+- **Operating System**: Any operating system that supports .NET Framework 4.7.2.
+- **IDE**: Compatible version of Visual Studio (or an equivalent IDE like JetBrains Rider or VS Code with C# extensions).
+- **Version Control**: **Git** for cloning the repository.
+- **Frameworks** (Specified in App.config): .NET Framework 4.7.2 or later.
+- **RAM**: Minimum 4GB
+- **Disk Space**: Minimum 100MB free space
+- **Dependencies** (Specified in `packages.config` for `UnitTestProject1`):
+  - `MSTest.TestAdapter` (Version 2.2.10)
+  - `MSTest.TestFramework` (Version 2.2.10)
 
 #### Project Configurations
 
-**`App.config`**:
+`App.config`:
 
 `App.config` is the main configuration file for a .NET desktop application, defining settings like the target .NET Framework version and application-specific parameters.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
-    <startup> 
+    <startup>
         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
     </startup>
 </configuration>
 ```
 
-**`packages.config`**:
+`packages.config`:
 
 `packages.config` lists the NuGet packages (libraries and tools) that a specific project in the solution depends on, along with their installed versions and target frameworks.
 
@@ -86,60 +86,64 @@ To successfully compile and run this project, you must have the following instal
 
 **1. Clone the Repository**
 
-  * Naviagte and click the green "**Code**" button at the top of this repository.
-  * Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
-  * Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
-  * Open your preferred terminal or command prompt and use the following command to clone the project:
+- Naviagte and click the green "**Code**" button at the top of this repository.
+- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
+- Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
+- Open your preferred terminal or command prompt and use the following command to clone the project:
 
 ```bash
 git clone https://github.com/singhishkar/Recipe-Applications.git
 ```
 
-  * This will create a new folder with the repository's name and download all the files and the entire history into it.
-  * Alternatively, you may download as a ZIP file or clone using GitHub Desktop.
+- This will create a new folder with the repository's name and download all the files and the entire history into it.
+- Alternatively, you may download as a ZIP file or clone using GitHub Desktop.
 
 **2. Open the Solution**
 
-  * Navigate into the newly created directory and open the solution file `(.sln)` in Visual Studio:
+- Navigate into the newly created directory and open the solution file `(.sln)` in Visual Studio:
 
 ```bash
 cd Recipe-Applications
 ```
 
-  * In Visual Studio, go to `File > Open > Project/Solution` and select the `RecipesApplication.sln` file.
+- In Visual Studio, go to `File > Open > Project/Solution` and select the `RecipesApplication.sln` file.
 
 **3. Restore NuGet Packages**
 
 Visual Studio should automatically prompt you to restore the NuGet packages for the unit testing project (`UnitTestProject1`). If it does not, you can manually restore them:
-  1. Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution...`
-  2. At the top of the dialog, there should be a button labeled **Restore**. Click this to download the necessary MSTest dependencies defined in `packages.config`.
+
+1. Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution...`
+2. At the top of the dialog, there should be a button labeled **Restore**. Click this to download the necessary MSTest dependencies defined in `packages.config`.
 
 #### Running
 
 **1. Set the Startup Project**
 
 The solution contains two projects: `RecipesApplication` (the main application) and `UnitTestProject1` (the tests). You must set the main application as the one to execute.
-  1. In the Solution Explorer, right-click on the **RecipesApplication** project.
-  2. Select **Set as Startup Project**. This will make the project name **bold**.
+
+1. In the Solution Explorer, right-click on the **RecipesApplication** project.
+2. Select **Set as Startup Project**. This will make the project name **bold**.
 
 **2. Build the Solution**
 
-  1. Compile the code by building the solution:
-  2. Go to **Build \> Build Solution** (or press **Ctrl+Shift+B**).
-  3. Ensure the build completes successfully with "**Build succeeded**" in the output window.
+1. Compile the code by building the solution:
+2. Go to **Build \> Build Solution** (or press **Ctrl+Shift+B**).
+3. Ensure the build completes successfully with "**Build succeeded**" in the output window.
 
 **3. Start the Application**
 
 You can now run the console application:
-  * Go to **Debug \> Start Debugging** (or press **F5**) to run the application with the debugger attached.
-  * Go to **Debug \> Start Without Debugging** (or press **Ctrl+F5**) to run the application directly.
-    The console window will open, and the application's main menu will be displayed, allowing you to interact with the program.
+
+- Go to **Debug \> Start Debugging** (or press **F5**) to run the application with the debugger attached.
+- Go to **Debug \> Start Without Debugging** (or press **Ctrl+F5**) to run the application directly.
+  The console window will open, and the application's main menu will be displayed, allowing you to interact with the program.
 
 **Optional: Run Unit Tests**
 To verify the application's core logic is working correctly:
-  1. Go to **Test \> Test Explorer** (or **Test \> Windows \> Test Explorer**).
-  2. In the Test Explorer window, click the **Run All Tests** button.
-  3. All tests defined in `TotalCaloriesTest.cs` should pass, confirming the expected behavior of the recipe calculation logic.
+
+1. Go to **Test \> Test Explorer** (or **Test \> Windows \> Test Explorer**).
+2. In the Test Explorer window, click the **Run All Tests** button.
+3. All tests defined in `TotalCaloriesTest.cs` should pass, confirming the expected behavior of the recipe calculation logic.
 
 ### Windows Presentation Foundation (WPF):
 
@@ -147,27 +151,27 @@ To verify the application's core logic is working correctly:
 
 To successfully compile and run this project, you must have the following installed on your system:
 
-  * **Operating System**: **Microsoft Windows** is required, as WPF is a Windows-specific technology.
-  * **Operating System Version**: Any version of Windows that supports **.NET Framework 4.7.2** is required. Generally, this includes **Windows 7 Service Pack 1 and newer versions** (like Windows 8.1 and Windows 10/11), as long as the necessary framework runtime is installed.
-  * **IDE**: Compatible version of **Visual Studio** (or an equivalent IDE like JetBrains Rider or VS Code with C\# extensions).
-  * **Version Control**: **Git** for cloning the repository.
-  * **Frameworks**:
-      * Primary Framework: **.NET Framework 4.7.2** or later (Specified in App.config).
-      * UI Framework: **Windows Presentation Foundation (WPF)**
-  * **RAM**: Minimum **4GB**
-  * **Disk Space**: Minimum **100MB** free space
-  * **Dependencies**: The project solely relies on the built-in libraries included with the target framework. **No external NuGet packages are currently required.**
+- **Operating System**: Microsoft Windows is required, as WPF is a Windows-specific technology.
+- **Operating System Version**: Any version of Windows that supports .NET Framework 4.7.2 is required. Generally, this includes Windows 7 Service Pack 1 and newer versions (like Windows 8.1 and Windows 10/11), as long as the necessary framework runtime is installed.
+- **IDE**: Compatible version of Visual Studio (or an equivalent IDE like JetBrains Rider or VS Code with C\# extensions).
+- **Version Control**: Git for cloning the repository.
+- **Frameworks**:
+  - Primary Framework: .NET Framework 4.7.2 or later (Specified in App.config).
+  - UI Framework: Windows Presentation Foundation (WPF)
+- **RAM**: Minimum 4GB
+- **Disk Space**: Minimum 100MB free space
+- **Dependencies**: The project solely relies on the built-in libraries included with the target framework. **No external NuGet packages are currently required.**
 
 #### Project Configurations
 
-**`App.config`**
+`App.config`
 
 `App.config` is the main configuration file for a .NET desktop application, defining settings like the target .NET Framework version and application-specific parameters.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
-    <startup> 
+    <startup>
         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
     </startup>
 </configuration>
@@ -177,53 +181,55 @@ To successfully compile and run this project, you must have the following instal
 
 **1. Clone the Repository**
 
-  * Naviagte and click the green "**Code**" button at the top of this repository.
-  * Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
-  * Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
-  * Open your preferred terminal or command prompt and use the following command to clone the project:
+- Naviagte and click the green "**Code**" button at the top of this repository.
+- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
+- Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
+- Open your preferred terminal or command prompt and use the following command to clone the project:
 
 ```bash
 git clone https://github.com/singhishkar/Recipe-Applications.git
 ```
 
-  * This will create a new folder with the repository's name and download all the files and the entire history into it.
-  * Alternatively, you may download as a ZIP file or clone using GitHub Desktop.
+- This will create a new folder with the repository's name and download all the files and the entire history into it.
+- Alternatively, you may download as a ZIP file or clone using GitHub Desktop.
 
 **2. Open the Solution**
 
-  * Navigate into the newly created directory and open the solution file `(.sln)` in Visual Studio:
+- Navigate into the newly created directory and open the solution file `(.sln)` in Visual Studio:
 
 ```bash
 cd Recipe-Applications
 ```
 
-  * In Visual Studio, go to `File > Open > Project/Solution` and select the `RecipesApplication.sln` file.
+- In Visual Studio, go to `File > Open > Project/Solution` and select the `RecipesApplication.sln` file.
 
 **3. Restore NuGet Packages**
 
 Since the project currently uses only core .NET assemblies, **there are no external NuGet packages to restore**. However, if any are added in the future:
-  * Visual Studio typically performs an automatic restore. If it fails:
-    1.  Right-click the solution in Solution Explorer and select **Restore NuGet Packages**.
-    2.  Alternatively:
-          * Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution...`
-          * At the top of the dialog, there should be a button labeled **Restore**.
+
+- Visual Studio typically performs an automatic restore. If it fails:
+  1.  Right-click the solution in Solution Explorer and select **Restore NuGet Packages**.
+  2.  Alternatively:
+      - Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution...`
+      - At the top of the dialog, there should be a button labeled **Restore**.
 
 #### Running
 
 **1. Set the Startup Project**
 In a solution with multiple projects, you must specify the main application project to execute:
 
-  1. In the **Solution Explorer** window, locate the **RecipeWPF** project.
-  2. Right-click on the **RecipeWPF** project name.
-  3. Select **Set as Startup Project**. The project name should appear **bold**.
+1. In the **Solution Explorer** window, locate the **RecipeWPF** project.
+2. Right-click on the **RecipeWPF** project name.
+3. Select **Set as Startup Project**. The project name should appear **bold**.
 
 **2. Build and Run the Application**
 
-  1. **Build the solution**: Go to **Build \> Build Solution** (or press **Ctrl+Shift+B**). Wait for the "**Build succeeded**" message in the output window.
-  2. **Start the application**:
-      * To run with the debugger attached (recommended for development), go to **Debug \> Start Debugging** (or press **F5**).
-      * To run without the debugger, go to **Debug \> Start Without Debugging** (or press **Ctrl+F5**).
-  * The WPF window (MainWindow.xaml) will launch, presenting the graphical user interface of the application.
+1. **Build the solution**: Go to **Build \> Build Solution** (or press **Ctrl+Shift+B**). Wait for the "**Build succeeded**" message in the output window.
+2. **Start the application**:
+   - To run with the debugger attached (recommended for development), go to **Debug \> Start Debugging** (or press **F5**).
+   - To run without the debugger, go to **Debug \> Start Without Debugging** (or press **Ctrl+F5**).
+
+- The WPF window (MainWindow.xaml) will launch, presenting the graphical user interface of the application.
 
 ---
 
