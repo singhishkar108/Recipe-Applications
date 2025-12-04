@@ -11,6 +11,15 @@
 ✨ 1. [**Introduction**](#-1-introduction)<br>
 💻 2. [**Setting Up the Project Locally**](#-2-setting-up-the-project-locally)<br>
 ✅ 3. [**Features and Functionality**](#-3-features-and-functionality)<br> 
+🗺️ 4. [**User Navigation**](#️-4-user-navigations)<br>
+🖼️
+🏗️
+👥
+⚖️
+❓
+📚
+
+
 🗺️ 4. [**User Navigations**](#-4-user-navigations)<br> 
 🖼️ 5. [**Screenshots**](#-5-screenshots)<br>
 🏗️ 6. [**Architecture**](#-6-architecture)<br>
