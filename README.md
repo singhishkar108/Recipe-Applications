@@ -10,21 +10,12 @@
 
 ✨ 1. [**Introduction**](#-1-introduction)<br>
 💻 2. [**Setting Up the Project Locally**](#-2-setting-up-the-project-locally)<br>
-✅ 3. [**Features and Functionality**](#-3-features-and-functionality)<br> 
+✅ 3. [**Features and Functionality**](#-3-features-and-functionality)<br>
 🗺️ 4. [**User Navigation**](#️-4-user-navigations)<br>
-🖼️
-🏗️
-👥
-⚖️
-❓
-📚
-
-
-🗺️ 4. [**User Navigations**](#-4-user-navigations)<br> 
-🖼️ 5. [**Screenshots**](#-5-screenshots)<br>
-🏗️ 6. [**Architecture**](#-6-architecture)<br>
+🖼️ 5. [**Screenshots**](#️-5-screenshots)<br>
+🏗️ 6. [**Architecture**](#️-6-architecture)<br>
 👥 7. [**Author and Contributions**](#-7-author-and-contributions)<br>
-⚖️ 8. [**MIT License**](#-8-mit-license)<br>
+⚖️ 8. [**MIT License**](#️-8-mit-license)<br>
 ❓ 9. [**Frequently Asked Questions (FAQ)**](#-9-frequently-asked-questions-faq)<br>
 📚 10. [**References**](#-10-references)<br>
 
