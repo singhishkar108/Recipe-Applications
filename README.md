@@ -87,12 +87,12 @@ To successfully compile and run this project, you must have the following instal
 **1. Clone the Repository**
 
 - Naviagte and click the green "**Code**" button at the top of this repository.
-- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
+- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar108/Recipe-Applications.git`).
 - Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
 - Open your preferred terminal or command prompt and use the following command to clone the project:
 
 ```bash
-git clone https://github.com/singhishkar/Recipe-Applications.git
+git clone https://github.com/singhishkar108/Recipe-Applications.git
 ```
 
 - This will create a new folder with the repository's name and download all the files and the entire history into it.
@@ -182,12 +182,12 @@ To successfully compile and run this project, you must have the following instal
 **1. Clone the Repository**
 
 - Naviagte and click the green "**Code**" button at the top of this repository.
-- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar/Recipe-Applications.git`).
+- Copy the URL under the "**HTTPS**" tab (`https://github.com/singhishkar108/Recipe-Applications.git`).
 - Navigate to the directory where you want to save the project (e.g., `cd Documents/Projects`).
 - Open your preferred terminal or command prompt and use the following command to clone the project:
 
 ```bash
-git clone https://github.com/singhishkar/Recipe-Applications.git
+git clone https://github.com/singhishkar108/Recipe-Applications.git
 ```
 
 - This will create a new folder with the repository's name and download all the files and the entire history into it.
